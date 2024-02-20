@@ -41,7 +41,7 @@ const Form = () => {
         width="100%"
         justifyContent="center"
         alignItems="center"
-        mt={4}
+        mt={8}
       >
         <StyledButton>Guardar</StyledButton>
       </Box>
