@@ -94,11 +94,12 @@ const Form = () => {
   return (
     <form style={{ width: "100%" }} onSubmit={handleSubmit}>
       <FormControl isRequired>
-        <FormLabel>Nombre</FormLabel>
+        <FormLabel >Nombre</FormLabel>
         <Input
           borderRadius="3px"
           borderColor="#C9C9C9"
           name="nombre"
+         
           value={formData.nombre}
           onChange={handleChange}
           placeholder="Nombre"
@@ -118,6 +119,7 @@ const Form = () => {
           borderRadius="3px"
           borderColor="#C9C9C9"
           name="email"
+
           value={formData.email}
           onChange={handleChange}
         />

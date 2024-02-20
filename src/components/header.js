@@ -23,19 +23,19 @@ const Header = () => {
     borderBottom="1px solid #DBDBDB"
    
     >
-        <Box>
+        <Box data-testid="menubar-icon">
            <Menubar/>
         </Box>
-        <Box>
+        <Box data-testid="search-icon">
             <Search/>
         </Box>
-        <Box>
+        <Box data-testid="logo-icon">
             <Logo/>
         </Box>
-        <Box>
+        <Box data-testid="login-icon">
             <Login/>
         </Box>
-        <Box>
+        <Box data-testid="cart-icon">
             <Cart/>
         </Box>
     </Box>

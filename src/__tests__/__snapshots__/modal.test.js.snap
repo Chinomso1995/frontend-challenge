@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the form modal correctly 1`] = `
+<button
+  className="chakra-button css-i0gsjp"
+  type="button"
+>
+  Anadir tarea
+</button>
+`;

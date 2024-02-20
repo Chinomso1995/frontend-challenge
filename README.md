@@ -27,3 +27,5 @@ npm install
 npm run start
 
 Navigate to http://localhost:8000/
+
+run test with npx jest
