@@ -1,8 +1,8 @@
 import * as React from "react"
 import {Box} from '@chakra-ui/react';
 import Cart from "../images/cart.svg";
-import Login from "../images/login.svg";
-import Logo from "../images/logo.svg";
+import Login from "../images/Login.svg";
+import Logo from "../images/Logo.svg";
 import Menubar from "../images/menubar.svg";
 import Search from "../images/search.svg";
 
