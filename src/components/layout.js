@@ -23,13 +23,15 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div
+    style={{ width:"100%", overflowX: "hidden"}}
+    >
       <Header/>
       <div>
         {children}
       </div>
     
-    </>
+    </div>
   )
 }
 

@@ -14,15 +14,27 @@ const Form = () => {
     <form style={{ width: "100%" }}>
       <FormControl isRequired>
         <FormLabel>Nombre</FormLabel>
-        <Input placeholder="Nombre" />
+        <Input 
+        borderRadius="3px" 
+        borderColor="#C9C9C9" 
+        placeholder="Nombre" 
+        />
       </FormControl>
       <FormControl isRequired mt={6}>
         <FormLabel>Email</FormLabel>
-        <Input placeholder="Email" />
+        <Input 
+        placeholder="Email" 
+        borderRadius="3px" 
+        borderColor="#C9C9C9" 
+        />
       </FormControl>
       <FormControl isRequired mt={6}>
         <FormLabel>Telefono</FormLabel>
-        <Input placeholder="Telefono" />
+        <Input 
+        placeholder="Telefono" 
+        borderRadius="3px" 
+        borderColor="#C9C9C9" 
+        />
       </FormControl>
       <Box
         display="flex"

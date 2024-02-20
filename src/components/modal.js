@@ -41,11 +41,19 @@ const FormModal = ({ onOpen, isOpen, onClose }) => {
           >
             <FormControl>
               <FormLabel>Nombre</FormLabel>
-              <Input placeholder="Nombre" />
+              <Input 
+              placeholder="Nombre" 
+              borderRadius="3px" 
+              borderColor="#C9C9C9" 
+              />
             </FormControl>
             <FormControl mt={6}>
               <FormLabel>Descripcion</FormLabel>
-              <Textarea placeholder="Descripcion" />
+              <Textarea 
+              placeholder="Descripcion" 
+              borderRadius="3px" 
+              borderColor="#C9C9C9" 
+              />
             </FormControl>
 
             <Box
