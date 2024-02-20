@@ -12,14 +12,18 @@ import { Tabs,
     Input,
     FormLabel,
     FormErrorMessage,
+    useDisclosure,
     FormHelperText, } from '@chakra-ui/react'
 
 import StyledButton from "./button"
 import Form from "./form"
 
 import Trash from "../images/trash.svg"
+import FormModal from "./modal"
 
 const MenuTab = () => {
+
+  const { isOpen, onOpen, onClose } = useDisclosure()
     return (
     <Box
   
@@ -162,10 +166,11 @@ const MenuTab = () => {
           alignItems="center"
           mt={10}
           >
-            <StyledButton
-            >
-                Anadir tarea
-            </StyledButton>
+           <FormModal
+           isOpen={isOpen}
+           onOpen={onOpen}
+           onClose={onClose}
+           />
           </Box>
       </TabPanel>
       <TabPanel  marginLeft="auto"
