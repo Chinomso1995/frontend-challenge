@@ -7,13 +7,10 @@ import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import MenuTab from "../components/menutab"
 
-
 const IndexPage = () => (
   <Layout>
-      <MenuTab/>
+    <MenuTab />
   </Layout>
 )
-
-
 
 export default IndexPage
