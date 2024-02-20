@@ -150,6 +150,7 @@ const MenuTab = () => {
               fontSize="20px"
               lineHeight="27.24px"
               color="#555555"
+              paddingBottom= "20px"
             >
               Mis datos
             </Text>
@@ -181,6 +182,7 @@ const MenuTab = () => {
               fontSize="20px"
               lineHeight="27.24px"
               color="#555555"
+              paddingBottom= "20px"
             >
               Mis tareas
             </Text>
@@ -292,6 +294,7 @@ const MenuTab = () => {
               fontSize="20px"
               lineHeight="27.24px"
               color="#555555"
+              paddingBottom= "20px"
             >
               Mis devoluciones
             </Text>
@@ -310,6 +313,7 @@ const MenuTab = () => {
               fontSize="20px"
               lineHeight="27.24px"
               color="#555555"
+              paddingBottom= "20px"
             >
               Mis comunicaciones
             </Text>
@@ -328,6 +332,7 @@ const MenuTab = () => {
               fontSize="20px"
               lineHeight="27.24px"
               color="#555555"
+              paddingBottom= "20px"
             >
               Mis mejores amigos
             </Text>
