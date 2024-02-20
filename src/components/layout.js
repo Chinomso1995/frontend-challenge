@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 
   return (
     <div
-    style={{ width:"100%", overflowX: "hidden"}}
+    style={{ width:"100%", overflowX: "hidden",  fontFamily: "'Open Sans', sans-serif",}}
     >
       <Header/>
       <div>
